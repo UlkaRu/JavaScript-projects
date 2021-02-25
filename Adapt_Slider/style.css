@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    font-size: 18px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #d6a8e2;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+button {
+    background: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: .9rem;
+    margin: 2px auto;
+
+
+}
+
+button:hover {
+    background: rgb(140, 140, 247);
+}
+
+button:active {
+    background: black;
+    color: rgb(204, 202, 202);
+}
+
+.slider {
+    max-width: 80%;
+    border: 2px solid black;
+    margin: 20px auto;
+    overflow: hidden;
+    
+}
+
+.slider-line {
+    background:rgb(64, 64, 250);
+    display: flex;
+    transition: all ease 1s;
+}
